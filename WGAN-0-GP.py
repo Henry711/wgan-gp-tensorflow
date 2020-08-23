@@ -9,9 +9,9 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras import layers
 from tensorflow.keras.layers import LeakyReLU, ReLU
 from tensorflow.keras.layers import Dropout
- 
+
+
 BATCH_SIZE = 32
-LEARNING_RATE = 5e-5
 ALPHA_WEIGHT = 200
 DISCRIMINATOR_FACTOR = 2
  
